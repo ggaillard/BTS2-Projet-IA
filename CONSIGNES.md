@@ -3,17 +3,17 @@
 **Les consignes complètes** (sujets, exigences, déroulé du lundi et du mardi, barème) :
 <https://ggaillard.github.io/portail-bts/distance/projet-ia.html>
 
-Séances : 5, 6, 8 et 12 octobre 2026 (le projet), **13 octobre** (séance 24 : le même projet branché sur une IA en ligne, gratuite et sans carte bancaire). Questions et rendu : par e-mail, à l'adresse Gmail habituelle de l'enseignant, objet `[BTS2 Projet IA] NOM Prénom — …`.
+Séances : 5, 6 et 8 octobre 2026 (le premier projet) ; **12 octobre, séance 24** : un second projet, sur un **autre sujet**, dans un nouveau dépôt `projet-ia-<prenom>-2`, prototypé avec une IA en ligne gratuite et sans carte bancaire, comparée au modèle local. Questions et rendu : par e-mail, à l'adresse Gmail habituelle de l'enseignant, objet `[BTS2 Projet IA] NOM Prénom — …`.
 
 ## Démarrer en trois gestes
 
 1. En haut de cette page : **Use this template → Create a new repository**, à votre nom, nommé `projet-ia-<prenom>`.
-2. Clonez **votre** dépôt, puis `cp .env.example .env` (Windows : `copy .env.example .env`) et remplissez `.env`. Ce fichier ne se commite jamais.
+2. Clonez **votre** dépôt, puis `cp .env.example .env` (Windows : `copy .env.example .env`) et remplissez `.env` (au moins `CODE_ACCES`). Ce fichier ne se commite jamais. Sans Docker : `uvicorn main:app --reload --env-file .env`.
 3. Remplissez `README.md` au fil des séances : c'est votre dossier.
 
-### Vous avez créé votre dépôt avant le 13 octobre ? Récupérer la séance 24
+### Un dépôt créé avant le 12 octobre ? Y ajouter les fichiers de la séance 24
 
-Dans votre dépôt, téléchargez les deux nouveaux fichiers, puis suivez la mission 3 de la séance 24 (trois changements dans `main.py`, une ligne dans le `Dockerfile`) :
+Pour la séance 24, créez plutôt un **nouveau** dépôt depuis ce modèle : il contient tout. Pour faire évoluer votre premier projet plus tard, téléchargez les deux fichiers, puis reprenez `main.py` et le `Dockerfile` de ce modèle :
 
 ```bash
 curl -O https://raw.githubusercontent.com/ggaillard/BTS2-Projet-IA/main/fournisseurs.py
