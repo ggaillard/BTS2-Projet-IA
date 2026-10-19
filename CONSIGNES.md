@@ -1,7 +1,7 @@
 # Projet IA à domicile — BTS SIO 2 SLAM
 
 **Les consignes complètes** (sujets, exigences, déroulé du lundi et du mardi, barème) :
-<https://ggaillard.github.io/portail-bts/distance/projet-ia.html>
+<https://ggaillard.github.io/BTS2-Projet-IA/> — publiées depuis le dossier `docs/` de ce dépôt.
 
 Séances : 5, 6 et 8 octobre 2026 (le premier projet) ; **12 octobre, séance 24** : un second projet, sur un **autre sujet**, dans un nouveau dépôt `projet-ia-<prenom>-2`, prototypé avec une IA en ligne gratuite et sans carte bancaire, comparée au modèle local. Questions et rendu : par e-mail, à l'adresse Gmail habituelle de l'enseignant, objet `[BTS2 Projet IA] NOM Prénom — …`.
 
